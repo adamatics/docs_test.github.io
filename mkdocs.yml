@@ -25,53 +25,53 @@ extra:
 # repo_url: https://github.com/adamatics/docs_test.github.io # link to repo
 # repo_name: adalib # name in link to repo
 
-# theme:
-#   features:
-#     - content.code.annotate # annotations in code blocks
-#     - content.code.copy # copy button in code blocks
-#     - navigation.footer
-#     - navigation.instant
-#     - navigation.top # back to top button
-#     - navigation.tracking # anchor in URL tracks page scroll
-#     # - navigation.tabs # use tabs instead of left-side navigation panel
-#     # - navigation.tabs.sticky # keep tabs on sight when scrolling
-#     - search.highlight
-#     - search.suggest
-#     - toc.follow
-#     - toc.integrate # table of contents in the navigation panel
-#   font:
-#     text: Jura Medium
-#     code: Jura Mono
-#   favicon: Adamatics_cube.png
-#   icon:
-#     repo: fontawesome/brands/github
-#     # repo: fontawesome/brands/gitlab
-#   logo: Adamatics_cube.png
+theme:
+  features:
+    - content.code.annotate # annotations in code blocks
+    - content.code.copy # copy button in code blocks
+    - navigation.footer
+    - navigation.instant
+    - navigation.top # back to top button
+    - navigation.tracking # anchor in URL tracks page scroll
+    # - navigation.tabs # use tabs instead of left-side navigation panel
+    # - navigation.tabs.sticky # keep tabs on sight when scrolling
+    - search.highlight
+    - search.suggest
+    - toc.follow
+    - toc.integrate # table of contents in the navigation panel
+  font:
+    text: Jura Medium
+    code: Jura Mono
+  favicon: Adamatics_cube.png
+  icon:
+    repo: fontawesome/brands/github
+    # repo: fontawesome/brands/gitlab
+  logo: Adamatics_cube.png
 
 #   name: material
 
-#   palette:
-#     # Palette toggle for automatic mode
-#     - media: "(prefers-color-scheme)"
-#       toggle:
-#         icon: material/brightness-auto
-#         name: Switch to light mode
-#     # Palette toggle for light mode
-#     - media: "(prefers-color-scheme: light)"
-#       scheme: default
-#       primary: purple
-#       accent: deep_purple
-#       toggle:
-#         icon: material/brightness-7
-#         name: Switch to dark mode
-#     # Palette toggle for dark mode
-#     - media: "(prefers-color-scheme: dark)"
-#       scheme: slate
-#       primary: purple
-#       accent: deep_purple
-#       toggle:
-#         icon: material/brightness-4
-#         name: Switch to system preference
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: purple
+      accent: deep_purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: purple
+      accent: deep_purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
 
 # plugins:
 #   - search:
