@@ -11,7 +11,7 @@ edit_uri: ""
 # Configuration
 theme:
   name: material
-  custom_dir: overrides
+  # custom_dir: overrides
 
 # Customization
 extra:
