@@ -1,2 +1,0 @@
-# `adalib.adaboard`
-::: adalib.adaboard

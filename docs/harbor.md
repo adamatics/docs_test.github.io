@@ -1,2 +1,0 @@
-# `adalib.harbor`
-::: adalib.harbor

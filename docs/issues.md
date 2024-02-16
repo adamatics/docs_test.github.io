@@ -1,2 +1,0 @@
-# `adalib.issues`
-::: adalib.issues

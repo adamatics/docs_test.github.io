@@ -1,2 +1,0 @@
-# `adalib.cards`
-::: adalib.cards

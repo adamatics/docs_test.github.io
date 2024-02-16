@@ -1,2 +1,0 @@
-# `adalib.keycloak`
-::: adalib.keycloak

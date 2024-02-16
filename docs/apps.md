@@ -1,2 +1,0 @@
-# `adalib.apps`
-::: adalib.apps
