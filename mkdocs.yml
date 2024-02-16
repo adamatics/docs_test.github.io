@@ -9,9 +9,9 @@ repo_url: https://github.com/adamatics/docs_test.github.io
 edit_uri: ""
 
 # Configuration
-# theme:
-#   name: material
-#   custom_dir: overrides
+theme:
+  name: material
+  custom_dir: overrides
 
 # Customization
 extra:
