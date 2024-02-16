@@ -1,6 +1,6 @@
 # Project information
 site_name: Library Documentation
-site_url: https://adamatics.github.io/docs_test.github.io/ # link to repo
+site_url: https://adamatics.github.io/docs_test.github.io/latest/ # link to repo
 site_author: Robert Paulson
 
 # Repository
@@ -11,7 +11,7 @@ edit_uri: ""
 # Configuration
 theme:
   name: material
-  # custom_dir: overrides
+  custom_dir: overrides
 
 # Customization
 extra:
