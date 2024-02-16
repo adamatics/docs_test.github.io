@@ -8,23 +8,6 @@ repo_name: adamatics/docs_test.github.io
 repo_url: https://github.com/adamatics/docs_test.github.io
 edit_uri: ""
 
-# Configuration
-# theme:
-#   name: material
-#   custom_dir: overrides
-
-# Customization
-# extra:
-#   version:
-#     provider: mike
-#     default: 
-#       - stable
-#       - latest
-
-# site_name: adalib Documentation
-# repo_url: https://github.com/adamatics/docs_test.github.io # link to repo
-# repo_name: adalib # name in link to repo
-
 theme:
   features:
     - content.code.annotate # annotations in code blocks
@@ -74,75 +57,75 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 
-# plugins:
-#   - search:
-#       separator: '[\s\-]+'
-#   - mkdocstrings:
-#       handlers:
-#         python:
-#           options:
-#             paths: [.]
-#             show_source: true # change if you want able to show source code
-#             heading_level: 2
-#             # show_root_heading: true
-#             show_root_toc_entry: false
-#             show_object_full_path: false
-#             show_category_heading: true
-#             # show_symbol_type_heading: true
-#             # show_symbol_type_toc: true
-#             docstring_style: "sphinx" # important!, since default is google
-#             docstring_section_style: table
-#             # show_docstring_attributes: true
-#             # show_docstring_functions: true
-#             # show_docstring_classes: true
-#             show_docstring_description: true
-#             # show_docstring_modules: true
-#             # show_docstring_examples: true
-#             separate_signature: true
-#   # - mike:
-#       # alias_type: symlink
-#       # redirect_template: null
-#       # deploy_prefix: ''
-#       # canonical_version: null
-#       # version_selector: true
-#       # css_dir: css
-#       # javascript_dir: js
-# markdown_extensions:
-#   # Python Markdown
-#   - abbr
-#   - admonition
-#   - attr_list
-#   - def_list
-#   - footnotes
-#   - md_in_html
-#   - toc:
-#       permalink: true
+plugins:
+  - search:
+      separator: '[\s\-]+'
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            paths: [.]
+            show_source: true # change if you want able to show source code
+            heading_level: 2
+            # show_root_heading: true
+            show_root_toc_entry: false
+            show_object_full_path: false
+            show_category_heading: true
+            # show_symbol_type_heading: true
+            # show_symbol_type_toc: true
+            docstring_style: "sphinx" # important!, since default is google
+            docstring_section_style: table
+            # show_docstring_attributes: true
+            # show_docstring_functions: true
+            # show_docstring_classes: true
+            show_docstring_description: true
+            # show_docstring_modules: true
+            # show_docstring_examples: true
+            separate_signature: true
+  - mike:
+      alias_type: redirect
+      # redirect_template: null
+      # deploy_prefix: ''
+      canonical_version: latest
+      version_selector: true
+      # css_dir: css
+      # javascript_dir: js
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
 
-#   # Python Markdown Extensions
-#   - pymdownx.arithmatex:
-#       generic: true
-#   - pymdownx.betterem:
-#       smart_enable: all
-#   - pymdownx.caret
-#   - pymdownx.details
-#   # - pymdownx.emoji:
-#   #     emoji_index: !!python/name:material.extensions.emoji.twemoji
-#   #     emoji_generator: !!python/name:material.extensions.emoji.to_svg
-#   - pymdownx.highlight:
-#       anchor_linenums: true
-#       line_spans: __span
-#       pygments_lang_class: true
-#   - pymdownx.inlinehilite
-#   - pymdownx.keys
-#   - pymdownx.mark
-#   - pymdownx.smartsymbols
-#   - pymdownx.superfences
-#   - pymdownx.tabbed:
-#       alternate_style: true
-#   - pymdownx.tasklist:
-#       custom_checkbox: true
-#   - pymdownx.tilde
-#   - pymdownx.snippets
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:material.extensions.emoji.twemoji
+  #     emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.snippets
 
 extra:
   social:
