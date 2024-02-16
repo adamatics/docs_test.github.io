@@ -1,0 +1,135 @@
+site_name: adalib Documentation
+repo_url: https://github.com/adamatics/docs_test.github.io # link to repo
+repo_name: adalib # name in link to repo
+
+theme:
+  features:
+    - content.code.annotate # annotations in code blocks
+    - content.code.copy # copy button in code blocks
+    - navigation.footer
+    - navigation.instant
+    - navigation.top # back to top button
+    - navigation.tracking # anchor in URL tracks page scroll
+    # - navigation.tabs # use tabs instead of left-side navigation panel
+    # - navigation.tabs.sticky # keep tabs on sight when scrolling
+    - search.highlight
+    - search.suggest
+    - toc.follow
+    - toc.integrate # table of contents in the navigation panel
+  font:
+    text: Jura Medium
+    code: Jura Mono
+  favicon: Adamatics_cube.png
+  icon:
+    repo: fontawesome/brands/github
+    # repo: fontawesome/brands/gitlab
+  logo: Adamatics_cube.png
+
+  name: material
+
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: purple
+      accent: deep_purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: purple
+      accent: deep_purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+plugins:
+  - search:
+      separator: '[\s\-]+'
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            paths: [.]
+            show_source: true # change if you want able to show source code
+            heading_level: 2
+            # show_root_heading: true
+            show_root_toc_entry: false
+            show_object_full_path: false
+            show_category_heading: true
+            # show_symbol_type_heading: true
+            # show_symbol_type_toc: true
+            docstring_style: "sphinx" # important!, since default is google
+            docstring_section_style: table
+            # show_docstring_attributes: true
+            # show_docstring_functions: true
+            # show_docstring_classes: true
+            show_docstring_description: true
+            # show_docstring_modules: true
+            # show_docstring_examples: true
+            separate_signature: true
+  # - mike:
+      # alias_type: symlink
+      # redirect_template: null
+      # deploy_prefix: ''
+      # canonical_version: null
+      # version_selector: true
+      # css_dir: css
+      # javascript_dir: js
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:material.extensions.emoji.twemoji
+  #     emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.snippets
+
+extra:
+  social:
+    - icon: material/cube-outline
+      link: https://adamatics.com
+      name: Adamatics Website
+    - icon: fontawesome/brands/github
+      link: https://github.com/adamatics
+      name: Adamatics in GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/adamatics
+      name: Adamatics in LinkedIn
+  version:
+    provider: mike # documentation versioning

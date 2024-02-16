@@ -1,0 +1,2 @@
+# `adalib.config`
+::: adalib.config

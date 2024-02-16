@@ -1,0 +1,2 @@
+# `adalib.lab`
+::: adalib.lab

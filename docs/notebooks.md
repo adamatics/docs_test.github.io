@@ -1,0 +1,2 @@
+# `adalib.notebooks`
+::: adalib.notebooks

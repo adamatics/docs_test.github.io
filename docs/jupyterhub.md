@@ -1,0 +1,2 @@
+# `adalib.jupyterhub`
+::: adalib.jupyterhub
