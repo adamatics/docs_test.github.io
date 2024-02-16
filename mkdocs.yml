@@ -14,12 +14,12 @@ edit_uri: ""
 #   custom_dir: overrides
 
 # Customization
-extra:
-  version:
-    provider: mike
-    default: 
-      - stable
-      - latest
+# extra:
+#   version:
+#     provider: mike
+#     default: 
+#       - stable
+#       - latest
 
 # site_name: adalib Documentation
 # repo_url: https://github.com/adamatics/docs_test.github.io # link to repo
@@ -144,16 +144,19 @@ theme:
 #   - pymdownx.tilde
 #   - pymdownx.snippets
 
-# extra:
-#   social:
-#     - icon: material/cube-outline
-#       link: https://adamatics.com
-#       name: Adamatics Website
-#     - icon: fontawesome/brands/github
-#       link: https://github.com/adamatics
-#       name: Adamatics in GitHub
-#     - icon: fontawesome/brands/linkedin
-#       link: https://www.linkedin.com/company/adamatics
-#       name: Adamatics in LinkedIn
-#   version:
-#     provider: mike # documentation versioning
+extra:
+  social:
+    - icon: material/cube-outline
+      link: https://adamatics.com
+      name: Adamatics Website
+    - icon: fontawesome/brands/github
+      link: https://github.com/adamatics
+      name: Adamatics in GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/adamatics
+      name: Adamatics in LinkedIn
+  version:
+    provider: mike # documentation versioning
+    default: 
+      - stable
+      - latest
