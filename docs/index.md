@@ -6,4 +6,4 @@ Let's try again...
 
 How about now?
 
-This should be 1.0
+This should be 2.0-dev
